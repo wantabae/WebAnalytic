@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Analytics & Tag Manager Integration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#step1">Step 1: Create Google Analytics Account</a></li>
+                <li><a href="#step2">Step 2: Set Up Google Tag Manager</a></li>
+                <li><a href="#step3">Step 3: Add GA to GTM</a></li>
+                <li><a href="#step4">Step 4: Verify Connection</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1>Google Analytics & Google Tag Manager Integration</h1>
+            <p>Step-by-Step Guide to Integrate Google Analytics and Google Tag Manager</p>
+        </header>
+
+        <section id="introduction">
+            <img src="analytics-intro.jpg" alt="Google Analytics Introduction">
+            <h2>Introduction</h2>
+            <p>In this tutorial, we will walk you through the steps to integrate Google Analytics with Google Tag Manager. By the end of this guide, you'll have a seamless setup for tracking your website's analytics.</p>
+        </section>
+
+        <section id="step1">
+            <img src="ga-account.jpg" alt="Google Analytics Account">
+            <h2>Step 1: Create a Google Analytics Account</h2>
+            <p>Start by creating a Google Analytics account if you don't already have one. Visit <a href="https://analytics.google.com/">Google Analytics</a> and sign up.</p>
+            <button onclick="window.location.href='https://analytics.google.com/'">Create Google Analytics Account</button>
+        </section>
+
+        <section id="step2">
+            <img src="gtm-account.jpg" alt="Google Tag Manager Account">
+            <h2>Step 2: Set Up a Google Tag Manager Account</h2>
+            <p>Next, head over to <a href="https://tagmanager.google.com/">Google Tag Manager</a> and create an account. You can set up a new container for your website.</p>
+            <button onclick="window.location.href='https://tagmanager.google.com/'">Create Google Tag Manager Account</button>
+        </section>
+
+        <section id="step3">
+            <img src="gtm-setup.jpg" alt="Google Tag Manager Setup">
+            <h2>Step 3: Add Google Analytics to Tag Manager</h2>
+            <p>In your Google Tag Manager dashboard:</p>
+            <ol>
+                <li>Click on "Add a new tag" and select "Google Analytics: Universal Analytics".</li>
+                <li>Configure your tag by selecting "Page View" as the track type.</li>
+                <li>Enter your Google Analytics tracking ID.</li>
+                <li>Set the trigger to "All Pages" so that it tracks every page on your website.</li>
+                <li>Save the tag and publish your container.</li>
+            </ol>
+        </section>
+
+        <section id="step4">
+            <img src="ga-verification.jpg" alt="Google Analytics Verification">
+            <h2>Step 4: Verify the Connection</h2>
+            <p>Finally, verify that your Google Analytics is correctly receiving data by using the Real-Time report in the Google Analytics dashboard. If everything is set up correctly, you should start seeing live data.</p>
+            <button onclick="window.location.href='https://analytics.google.com/analytics/web/'">Verify Google Analytics</button>
+        </section>
+
+        <footer>
+            <p>Happy Tracking! For more tips, stay tuned to our blog.</p>
+        </footer>
+    </div>
+</body>
+</html>
